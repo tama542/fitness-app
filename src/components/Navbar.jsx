@@ -24,7 +24,7 @@ const Navbar = () => {
 
                     <li className="py-2 md:py-0">
                         <Link to="/homepage" onClick={() => setIsOpen(false)}>
-                            HomePage
+                            Home
                         </Link>
                     </li>
 

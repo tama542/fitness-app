@@ -7,8 +7,17 @@ function Work() {
 
   useEffect(() => {
 
-    const apiUrl = "https://api.api-ninjas.com/v1/exercises?muscle=biceps";
+    const apiUrl = 'https://workout-planner1.p.rapidapi.com/?time=30&muscle=biceps&location=gym&equipment=dumbbells';
+    const options = {
+      method: 'GET',
+      headers: {
+        'x-rapidapi-key': '9bbceb9610msh93e564bb09c5dacp16c08fjsnbb726e40f08a',
+        'x-rapidapi-host': 'workout-planner1.p.rapidapi.com'
+      }
+    };
     
+
+
 
     const fetchData = async () => {
       try {

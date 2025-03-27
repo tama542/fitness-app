@@ -20,7 +20,7 @@ function Workout() {
   return (
 
 
-    <section className="max-w-lg mx-auto p-5 border-1 border-green-500 rounded-lg shadow-lg bg-gray-50 mt-30">
+    <section className="max-w-lg mx-auto p-5 border-1 rounded-lg shadow-lg bg-gray-50 mt-30">
       <h2 className="text-2xl font-bold text-center text-black-600 mb-5">Workout Log</h2>
       <form className="space-y-4" onSubmit={addWorkout}>
         <input
@@ -41,7 +41,7 @@ function Workout() {
         />
         <button
           type="submit"
-          className="w-full px-4 py-2 bg-green-500 text-white font-semibold rounded-md hover:bg-green-600 transition"
+          className="w-full px-4 py-2 bg-green-500 text-white font-semibold rounded-md hover:bg-orange-500 transition"
         >
           Add Workout
         </button>
