@@ -19,8 +19,16 @@ function Workout() {
 
   return (
 
+<div>
+<img src="src\Images\pic3.jpg" className="w-290 h-130 mt-25 ml-5 rounded-2xl " />
+<div className="mt-12 ml-5 shadow-xl rounded-sm w-290 h-30" >
+  <h1 className="font-semibold text-xl font-sans">In this section, we have a workout program where you come after doing your personalised workout or the workouts given by the workout-generator.This workout-log helps you analyse your daily progress and you can always go back to the BMI in the home page to check if you are achieving any progress. </h1>
 
-    <section className="max-w-lg mx-auto p-5 border-1 rounded-lg shadow-lg bg-gray-50 mt-30">
+</div>
+
+
+
+    <section className="max-w-lg mx-auto p-5 border-1 rounded-lg shadow-lg bg-gray-50 mt-10">
       <h2 className="text-2xl font-bold text-center text-black-600 mb-5">Workout Log</h2>
       <form className="space-y-4" onSubmit={addWorkout}>
         <input
@@ -58,6 +66,7 @@ function Workout() {
         ))}
       </ul>
     </section>
+    </div>
     
   );
 }

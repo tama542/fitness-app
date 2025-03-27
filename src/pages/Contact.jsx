@@ -1,5 +1,10 @@
 import React, { useState } from "react";
 
+
+
+
+
+
 const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -14,13 +19,16 @@ const ContactForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("http://localhost:5000/send-message", {
+      const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
+          'Authorization': '397bc239-943a-4b7f-867e-5ac2769e0b06',
         },
-        body: JSON.stringify(formData),
+        body: JSON.stringify({key: 'value'}),
       });
+     
+   
 
       if (response.ok) {
         alert("Message sent successfully!");
@@ -74,6 +82,7 @@ const ContactForm = () => {
           ></textarea>
         </div>
         <button type="submit" className="w-full bg-green-500 text-white py-2 rounded-md hover:bg-orange-500">Send Message</button>
+        {/* <input type="hidden" name="apikey" value="397bc239-943a-4b7f-867e-5ac2769e0b06"></input> */}
       </form>
     </div>
   );

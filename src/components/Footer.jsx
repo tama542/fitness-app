@@ -2,7 +2,7 @@ import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
-    <footer className="bg-gray-600 text-white py-8 mt-40  flex flex-col justify-between">
+    <footer className="bg-gray-600 text-white py-8 mt-20  flex flex-col justify-between">
       <div className="container mx-auto px-6 md:px-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-center md:text-left flex-grow">
         {/* Company Info */}
         <div>
@@ -15,7 +15,7 @@ const Footer = () => {
           <ul className="space-y-2">
             <li><Link to="/homepage" className="text-gray-400 hover:text-orange-500">Home</Link></li>
             <li><Link to="/about.html" className="text-gray-400 hover:text-orange-500">About</Link></li>
-            <li><Link to="/contactForm" className="text-gray-400 hover:text-orange-500">Contact</Link></li>
+            <li><Link to="/ContactForm" className="text-gray-400 hover:text-orange-500">Contact</Link></li>
           </ul>
         </div>
         {/* Social Media Links */}

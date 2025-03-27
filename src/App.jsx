@@ -12,6 +12,7 @@ import HomePage from './pages/HomePage'
 import Work from './Work'
 import WorkoutGenerator from './pages/WorkoutGen'
 import ContactForm from './pages/Contact'
+import { Contact } from 'lucide-react'
 
 
 

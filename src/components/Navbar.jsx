@@ -31,13 +31,13 @@ const Navbar = () => {
 
                     <li className="py-2 md:py-0">
                         <Link to="/workoutgen" onClick={() => setIsOpen(false)}>
-                            Workout
+                            Workout-Generator
                         </Link>
                     </li>
 
                     <li className="py-2 md:py-0">
                         <Link to="/workout" onClick={() => setIsOpen(false)}>
-                            Workout
+                            Workout-log
                         </Link>
                     </li>
 
