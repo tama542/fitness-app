@@ -12,7 +12,7 @@ function Work() {
       method: 'GET',
       headers: {
         'x-rapidapi-key': '9bbceb9610msh93e564bb09c5dacp16c08fjsnbb726e40f08a',
-        'x-rapidapi-host': 'workout-planner1.p.rapidapi.com'
+         'x-rapidapi-host': 'workout-planner1.p.rapidapi.com'
       }
     };
     

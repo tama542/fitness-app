@@ -41,23 +41,37 @@ const Navbar = () => {
                         </Link>
                     </li>
 
+
                   
+               
                  
                     <li className="py-2 md:py-0">
                         <Link to="/nutritiontracker" onClick={() => setIsOpen(false)}>
                             Nutrition-Tracker
                         </Link>
                     </li>
-                    <li className="py-2 md:py-0">
+                    {/* <li className="py-2 md:py-0">
                         <Link to="/work" onClick={() => setIsOpen(false)}>
-                            Work
+                            
                         </Link>
-                    </li>
+                    </li> */}
                     <li className="py-2 md:py-0">
                         <Link to="/contactform" onClick={() => setIsOpen(false)}>
                             Contact
                         </Link>
                     </li>
+
+                    <li className="py-2 md:py-0">
+                        <Link to="/loginform" onClick={() => setIsOpen(false)}>
+                          login
+                        </Link>
+                    </li>
+
+                    {/* <li className="py-2 md:py-0">
+                        <Link to="/signup" onClick={() => setIsOpen(false)}>
+                          Signup
+                        </Link>
+                    </li> */}
                 </ul>
             </div>
         </nav>

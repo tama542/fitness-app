@@ -34,7 +34,7 @@ function HomePage() {
 <div>
 <h1 className=" ml-70 text-orange-500 text-7xl absolute flex items-center justify-center mt-60 font-bold left-50 sm:text-3xl md:text-5xl lg:text-7xl text-center ">MY FITNESS!</h1>
 <p className="text-white absolute flex items-center justify-center mt-80 font-bold left-130 text-5xl sm:text-lg md:text-xl lg:text-5xl ">Stay Healthy And Fit.</p>
-
+<button className="bg-amber-500 text-white absolute flex items-center justify-center mt-100  left-150  px-2 py-2 font-semibold  w-70 rounded-md hover:bg-white transition hover:text-black align-center">Join Now!</button>
 
 
 <img src="src\Images\main.jpg" className=" w-screen h-150 object-cover mt-10" />
@@ -44,6 +44,7 @@ function HomePage() {
   <section className="rounded-sm shadow-xl  p-3 w-300 h-50 ml-5">
     <h1 className="text-center font-serif underline font-bold text-xl">HOME</h1>
     <h3 className="font-semibold p-3 text-xl ">Welcome to Pump Fitness, Your journey to a healthier, stronger, and more confident you starts here! At Pump Fitness, we’re dedicated to providing expert guidance, personalized plans, and a supportive community to help you crush your fitness goals. Whether you're just beginning or pushing your limits, we’re here every step of the way to inspire, motivate, and empower you.To get started let us measure your BMI to know your health status.</h3>
+   
   </section>
 </div>
 
@@ -93,5 +94,11 @@ function HomePage() {
    
   );
 }
+
+
+
+
+
+
 
 export default HomePage;

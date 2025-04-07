@@ -26,7 +26,7 @@ function WorkoutGenerator() {
   return (
 
 <div>
-  <img src="src\Images\pic2.jpg" className="w-310 h-100 mt-25 ml-5 rounded-2xl " />
+  <img src="src\Images\pic2.jpg" className="w-290 h-100 mt-25 ml-5 rounded-2xl " />
       <div className="mt-12 ml-5 shadow-xl rounded-sm w-290 h-30">
 <h1 className="font-semibold text-xl font-sans">Incase it's your first time starting this Fitness journey, It is our pleasure to introduce to you the Workout Generator below which will give you random Exercises depending on your level of difficulty. As you advance the workouts might become easy hence forcing you to change the level of difficulty.We hope the workouts we have recommended  will be useful.  </h1>
       </div>
