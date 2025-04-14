@@ -1,10 +1,6 @@
 import React, { useState } from "react";
 
 
-
-
-
-
 const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -23,7 +19,8 @@ const ContactForm = () => {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          'Authorization': '397bc239-943a-4b7f-867e-5ac2769e0b06',
+          'Authorization': '397bc239-943a-4b7f-867e-5ac2769e0b06'
+
         },
         body: JSON.stringify({key: 'value'}),
       });
@@ -40,6 +37,7 @@ const ContactForm = () => {
       alert("An error occurred. Please try again later.");
     }
   };
+
 
   return (
     <div className="max-w-md mx-auto bg-white rounded-lg shadow-md p-6 mt-30">

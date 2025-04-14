@@ -24,9 +24,9 @@ function NutritionTracker() {
   return (
 
     <div>
-<img src="src\Images\nut1.jpg" className="w-290 h-130 mt-25 ml-5 rounded-2xl" />
-      <div className="mt-12 ml-5 shadow-xl rounded-sm w-290 h-30">
-<h1 className="font-semibold text-xl font-sans">Here we have the Nutrition-tracker.As we all know in your fitness journey you need to eat a healthy diet depending on the goal you have.This nutrition-tracker helps you to see the amount of carbs,proteins etc. you have taken depending on the type of food you eat.After every meal the user is required to fill in the data below and at the end of the day they will get a summary. Remember, there is no progress you will make in your fitness journey Without eating healthy.</h1>
+<img src="src\Images\nut1.jpg" className=" mt-24  rounded-2xl w-screen  object-cover  max-w-full h-auto" />
+      <div className="mt-12 ml-5 shadow-xl rounded-sm w-320 h-30">
+<h1 className="font-semibold  font-sans text-xl">Here we have the Nutrition-tracker.As we all know in your fitness journey you need to eat a healthy diet depending on the goal you have.This nutrition-tracker helps you to see the amount of carbs,proteins etc. you have taken depending on the type of food you eat.After every meal the user is required to fill in the data below and at the end of the day they will get a summary. Remember, there is no progress you will make in your fitness journey Without eating healthy.</h1>
       </div>
    
     <div className="max-w-lg mx-auto p-5 border rounded-lg shadow-lg bg-gray-50 mt-10 ">

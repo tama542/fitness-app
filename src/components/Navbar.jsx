@@ -1,6 +1,9 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu, X } from 'lucide-react';
+import { FaUser } from 'react-icons/fa';
+import { FaPhone } from 'react-icons/fa';
+import { FaHome } from 'react-icons/fa';
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
     const toggleMenu = () => {
@@ -24,7 +27,7 @@ const Navbar = () => {
 
                     <li className="py-2 md:py-0">
                         <Link to="/homepage" onClick={() => setIsOpen(false)}>
-                            Home
+                        <FaHome style={{ cursor: 'pointer', fontSize: '20px' }} />
                         </Link>
                     </li>
 
@@ -57,13 +60,13 @@ const Navbar = () => {
                     </li> */}
                     <li className="py-2 md:py-0">
                         <Link to="/contactform" onClick={() => setIsOpen(false)}>
-                            Contact
+                        <FaPhone style={{ cursor: 'pointer', fontSize: '20px' }} />
                         </Link>
                     </li>
 
                     <li className="py-2 md:py-0">
                         <Link to="/loginform" onClick={() => setIsOpen(false)}>
-                          login
+                        <FaUser style={{ cursor: 'pointer', fontSize: '20px' }} />
                         </Link>
                     </li>
 

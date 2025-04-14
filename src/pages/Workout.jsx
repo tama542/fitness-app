@@ -20,8 +20,8 @@ function Workout() {
   return (
 
 <div>
-<img src="src\Images\pic3.jpg" className="w-290 h-130 mt-25 ml-5 rounded-2xl " />
-<div className="mt-12 ml-5 shadow-xl rounded-sm w-290 h-30" >
+<img src="src\Images\pic3.jpg" className="h-190  mt-25 ml-5 rounded-2xl object-cover  w-330" />
+<div className="mt-12 ml-5 shadow-xl rounded-sm w-330 h-30" >
   <h1 className="font-semibold text-xl font-sans">In this section, we have a workout program where you come after doing your personalised workout or the workouts given by the workout-generator.This workout-log helps you analyse your daily progress and you can always go back to the BMI in the home page to check if you are achieving any progress. </h1>
 
 </div>
