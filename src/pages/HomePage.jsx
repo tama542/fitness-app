@@ -39,7 +39,7 @@ onClick={() => navigate("/LoginForm")}
 className="bg-amber-500 text-white absolute flex items-left justify-center mt-100   px-4 py-2 font-semibold  w-70 rounded-md hover:bg-white transition hover:text-black align-center ml-140  ">Join Now!</button>
 
 
-<img src="/public/Images/main.jpg" className=" w-screen  object-cover mt-10 max-w-full h-auto" />
+<img src="./Images/main.jpg" className=" w-screen  object-cover mt-10 max-w-full h-auto" />
 </div>
 
 <div>
